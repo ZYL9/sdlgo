@@ -1,12 +1,13 @@
-baseURL = 'https://pfrpg.shizya.top/'
-languageCode = 'en-us'
+baseURL = 'https://sdlgo.pages.dev/'
+languageCode = 'zh-CN'
 title = 'Palladium Fantasy RPG'
 theme = "hugo-book"
+hasCJKLanguage = true
 
 
 # (Optional) Set this to true to enable 'Last Modified by' date and git author
 #  information on 'doc' type pages.
-# enableGitInfo = true
+enableGitInfo = true
 
 [params]
 # (Optional, default light) Sets color theme: light, dark or auto.
@@ -20,7 +21,7 @@ BookToC = true
 
 # (Optional, default none) Set the path to a logo for the book. If the logo is
 # /static/logo.png then the path would be 'logo.png'
-BookLogo = 'logo.jpg'
+BookLogo = 'logo.webp'
 
 # (Optional, default none) Set leaf bundle to render as side menu
 # When not specified file structure and weights will be used
@@ -33,19 +34,19 @@ BookSection = 'docs'
 
 # Set source repository location.
 # Used for 'Last Modified' and 'Edit this page' links.
-# BookRepo = 'https://github.com/alex-shpak/hugo-book'
+BookRepo = 'https://github.com/ZYL9/sdlgo'
 
 # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
 # type.
 # Required if 'BookRepo' param is set.
 # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
 # Github uses 'commit', Bitbucket uses 'commits'
-# BookCommitPath = 'commit'
+BookCommitPath = 'commit'
 
 # Enable 'Edit this page' links for 'doc' page type.
 # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
 # Path must point to the site directory.
-# BookEditPath = 'edit/master/exampleSite'
+BookEditPath = 'edit/master'
 
 # (Optional, default January 2, 2006) Configure the date format used on the pages
 # - In git information
@@ -71,4 +72,4 @@ BookComments = true
 
 # /!\ This is an experimental feature, might be removed or changed at any time
 # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-# BookServiceWorker = true
+BookServiceWorker = true
